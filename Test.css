@@ -1,0 +1,173 @@
+body
+{
+	background: url("img/mini_lune.jpg")fixed no-repeat top right;
+	background-image: url("img/pic.jpg");
+	font-family: 'verdana';
+	text-align: justify;
+}
+
+aside
+{
+	border-radius: 10px;
+	box-shadow: 6px 6px 5px solid grey inset;
+	float: left;
+	width: 250px;
+	text-align: left;
+	padding: 5px;
+	background-image: url("img/pic02.jpg");
+}
+
+article
+{
+	width: 70%;
+	margin-left: 290px;
+	border-radius: 10px; 
+	box-shadow: 6px 6px 5px solid blue inset;
+	text-align: justify;
+	padding: 5px;
+	margin-bottom: 20px;
+
+}
+
+header
+{
+	width: 60%%;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	box-shadow: 6px 6px 5px solid grey inset;
+	text-align: left;
+	background-image: url("img/banner.jpg");
+}
+
+footer
+{
+	width: 98%;
+	margin: auto;
+	border-radius: 10px;
+	box-shadow: 6px 6px 5px solid blue inset;
+	text-align: justify;
+	padding: 12px;
+	margin-bottom: 10px;
+	background-image: url("img/banner.jpg");
+	color: white;
+
+}
+
+.acronyme
+{
+	color: red;
+}
+
+h1,h2
+{
+	font-style: italic;
+}
+
+h1
+{
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	text-shadow: 6px 6px 5px black;
+}
+
+.souligner
+{
+	text-decoration: underline;
+}
+
+.ecrit_nasa
+{
+	float: left;
+}
+.nom
+
+{
+	text-decoration: underline;
+}
+.flottante
+{
+	float: left;
+}
+
+
+
+h2
+{
+	background-color: rgb(63, 166, 177);
+	background-color: rgba(63, 166, 177, 0.5);
+	color: white;
+	border-radius: 10px;
+	box-shadow: 6px 6px 20px black inset;
+	
+}
+
+a
+{
+	font-style: italic;
+	color: white;
+	text-decoration: none;
+}
+
+a:hover
+{
+	border: 3px inset;
+	text-decoration: underline;
+}
+
+a:active
+{
+	background-color: #FFCC66;
+}
+
+a:visited
+{
+	color: white;
+}
+
+ul
+{
+	list-style: none;
+}
+
+p{
+	width: 70%;
+	margin: auto;
+	border-radius: 10px;
+	box-shadow: 6px 6px 5px solid blue inset;
+	text-align: justify;
+	padding: 12px;
+	margin-bottom: 20px;
+}
+
+#conteneur
+{
+	display: flex;
+	flex-direction: column;
+}
+
+nav ul
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+nav li
+{
+	margin-right: 15px;
+	margin-bottom: 10px;
+}
+
+#foot
+{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.tel
+{
+	width: 250px;
+}
